@@ -3,7 +3,7 @@ class CallDetail:
         self.call_made = None
         self.called = None
         self.duration = None
-        self.time = None
+        self.type = None
 
 
 class Util:
@@ -20,7 +20,7 @@ class Util:
             print("call_made:",self.list_of_call_objects[i][0] ,end="\n")
             print("called_to:",self.list_of_call_objects[i][1] ,end="\n")
             print("Duration:",self.list_of_call_objects[i][2] ,end="\n")
-            print("Time:",self.list_of_call_objects[i][3] ,end="\n")
+            print("Type:",self.list_of_call_objects[i][3] ,end="\n")
 
 
     
